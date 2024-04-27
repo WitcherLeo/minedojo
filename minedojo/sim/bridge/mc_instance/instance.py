@@ -367,7 +367,8 @@ class MinecraftInstance:
         """
         launch_script = "launchClient.sh"
         if os.name == "nt":
-            raise ValueError("TODO")
+            # raise ValueError("TODO")
+            pass
 
         launch_script = os.path.join(minecraft_dir, launch_script)
         rundir = os.path.join(minecraft_dir, "run")
